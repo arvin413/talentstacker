@@ -1,0 +1,143 @@
+.mtj_container {
+    background-color: #342A82;
+    font-family: 'Rubik', sans-serif;
+}
+.mtj_container label, 
+.mtj_container h1,
+.mtj_container h2,
+.mtj_container h3,
+.mtj_container h4,
+.mtj_container h5,
+.mtj_container h6,
+.mtj_container p,
+.mtj_container span{
+    font-family: 'Rubik', sans-serif;
+}
+.mtj_form .gform_heading {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0px;
+}
+.mtj_form .gform_heading h2.gform_title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    color: #FFCC33;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.mtj_form .gform_heading span.gform_description {
+    display: inline-block;
+    width: 69%;
+    vertical-align: middle;
+    color: #fff;
+}
+.mtj_form .gform_wrapper.gravity-theme .gf_progressbar {
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.25);
+}
+.mtj_form .gform_wrapper.gravity-theme .gf_progressbar_percentage:not(.percentbar_100) {
+    border-radius:0;
+}
+.mtj_form .gform_wrapper.gravity-theme .gf_progressbar_percentage {
+    height: 6px;
+}
+.mtj_form .gform_wrapper.gravity-theme .gf_progressbar_percentage span,
+.mtj_form .gform_wrapper.gravity-theme .gf_progressbar_title {
+    display: none;
+}
+.mtj_form form#gform_2 {
+    min-height: 100vh;
+    padding-bottom: 5%;
+    background-image: url('../img/mtj_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.mtj_form .gform_body.gform-body {
+    background: #342A82;
+    max-width: 550px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+}
+.mtj_form .gform_page_fields {
+    color: #fff;
+    padding: 8% 15%;
+    text-align: center;
+}
+.mtj_form .gform_wrapper.gravity-theme .gform_page_footer{
+    text-align: center;
+    border-top: rgba(255, 255, 255, 0.10) solid 1px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.mtj_form .gform_wrapper.gravity-theme .gform_previous_button.button, 
+.mtj_form .gform_wrapper.gravity-theme .gform_save_link.button{
+    background-color:initial;
+}
+.mtj_form .gform_wrapper.gravity-theme .gfield_label {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 0;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.mtj_form .gform_wrapper .gfield_required span.gfield_required.gfield_required_text,
+.mtj_form .gfield_radio .gchoice input{
+    display: none;
+}
+.mtj_form .gform_wrapper.gravity-theme .gfield_radio label{
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    border-radius: 8px;
+    border: 1px solid #fff;
+    padding: 11px;
+    max-width: 135px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.mtj_form .gform_wrapper .gfield_required:after{
+    content: '*';
+    color: #FFCC33;
+    font-size: 25px;
+}
+.mtj_form .gform_wrapper .gfield .gfield_radio {
+    justify-content: center;
+    margin-top: 25px;
+}
+.mtj_form .gform_wrapper.gravity-theme .gfield_radio input:checked + label {
+    border-color:#FFCC33;
+    color: #FFCC33;
+}
+.mtj_form .gform_wrapper.gravity-theme .gfield_radio label:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-image: url(../img/radio-default.svg);
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.mtj_form .gform_wrapper.gravity-theme .gfield_radio input:checked + label:before{
+    content: '';
+    background-image: url(../img/radio-active.svg);
+}
