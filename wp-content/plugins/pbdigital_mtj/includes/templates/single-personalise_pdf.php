@@ -123,6 +123,7 @@ if ($repeater_field) {
                 }   
             }
         }
+        
         if ($flexible_content_value) {
             foreach ($flexible_content_value as $layout) {
                 $content_layout = $layout['acf_fc_layout'];
